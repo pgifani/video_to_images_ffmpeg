@@ -1,18 +1,17 @@
 # -*- coding: utf-8 -*-
 """
 Created on Wed Nov 21 13:37:24 2018
-
-@author: RCISP
+Parisa Gifani
 """
 
 import os
 
 ##################----------Set Parameters----------####################
-video_input="J:/Saramad_bamdad/Data/data_low_light/meghdad_5min.mp4" # set video input
+video_input="path_for_video_file/sample.mp4" # set video input
 output_format=".jpg" # setting image format
 start_time="00:00:00" # setting start time
 Duration="0:05:00" # setting Duration time
-Frame_per_second="2" # setting Frame Per Second
+Frame_per_second="20" # setting Frame Per Second
 
 ########################################################################
 exe_code="ffmpeg.exe"
